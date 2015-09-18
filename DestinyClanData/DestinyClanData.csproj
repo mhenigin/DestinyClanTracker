@@ -100,6 +100,7 @@
     <Compile Include="Stats.cs" />
     <Compile Include="Triumphs.cs" />
     <Compile Include="Manifest.cs" />
+    <Compile Include="ManifestData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />

@@ -93,7 +93,7 @@ namespace DestinyClanData
 			//string jsonVersion = "asset_sql_content_dd24629bbaf293d8bfee4d5f877e053f.content";
 
 
-			string manifestFile = "/Users/michaelhenigin/Downloads/world_sql_content_cc3d7ed0dedfc3b81a7d5fab5084b1a1.db"; //Path.Combine (manifestPath, jsonVersion + ".manifest");
+			string manifestFile =  Path.Combine (manifestPath, jsonVersion + ".manifest");
 			return new ManifestData (manifestFile);
 		} 
 			//public List<MyObject> ReturnedData{ get; set; }
